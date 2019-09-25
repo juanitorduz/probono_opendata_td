@@ -8,4 +8,4 @@
 
 [REGISTER HERE](https://forms.office.com/Pages/ResponsePage.aspx?id=BXY_G5R7fU6NLUlCvIePtOA2V0AAP0RBqkXvjOLA1YpUNU5WMDFLQVNYU1FFN1JZVTVXWEFaWEI4VyQlQCN0PWcu)
 
-This repository containns the case stdied presented in the *Open Data* station of the workshop. 
+This repository contains the case study presented in the *Open Data* station of the workshop. 
