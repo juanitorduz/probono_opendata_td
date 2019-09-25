@@ -1,7 +1,7 @@
 # [Data Night Out](https://www.experienceone.com/datanightout/)
 ## Mit Daten Sinnvolles Machen
 
-[TD Reply](https://www.tdreply.de/) & [Experience One Workshop](https://www.experienceone.com/en/)
+[TD Reply](https://www.tdreply.de/) & [Experience One](https://www.experienceone.com/en/) Workshop
 
 **When:** 17th Ooctober 2019 at 18:00
 
