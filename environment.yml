@@ -13,3 +13,6 @@ dependencies:
   - matplotlib
   - seaborn
   - scikit-learn
+  - plotly
+  - pip:
+    - cufflinks
