@@ -9,4 +9,19 @@
 
 [REGISTER HERE](https://forms.office.com/Pages/ResponsePage.aspx?id=BXY_G5R7fU6NLUlCvIePtOA2V0AAP0RBqkXvjOLA1YpUNU5WMDFLQVNYU1FFN1JZVTVXWEFaWEI4VyQlQCN0PWcu)
 
-This repository contains the case study presented in the *Open Data* station of the workshop. 
+This repository contains the case study presented in the *Open Data* station of the workshop.
+
+---
+## Conda Environment
+
+- [Create conda environment](https://docs.conda.io/projects/conda/en/latest/user-guide/tasks/manage-environments.html):
+
+  `conda env create -f environment.yml`
+
+- Activate conda environment:
+
+  `conda activate probono_td`
+
+- Run [Jupyter Lab](https://jupyterlab.readthedocs.io/en/stable/index.html#):
+
+  `jupyter lab`
