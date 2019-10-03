@@ -14,7 +14,7 @@ This repository contains the case study presented in the *Open Data* station of 
 ---
 ## Conda Environment
 
-(For Winidows uses please see the [documentation](https://docs.conda.io/projects/conda/en/latest/user-guide/tasks/manage-environments.html)
+*For Winidows uses please see the [documentation](https://docs.conda.io/projects/conda/en/latest/user-guide/tasks/manage-environments.html)*.
 
 - [Create conda environment](https://docs.conda.io/projects/conda/en/latest/user-guide/tasks/manage-environments.html):
 
