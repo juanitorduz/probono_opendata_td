@@ -14,5 +14,6 @@ dependencies:
   - seaborn
   - scikit-learn
   - plotly
+  - networkx
   - pip:
     - cufflinks
