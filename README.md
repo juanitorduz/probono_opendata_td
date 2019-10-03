@@ -9,4 +9,29 @@
 
 [REGISTER HERE](https://forms.office.com/Pages/ResponsePage.aspx?id=BXY_G5R7fU6NLUlCvIePtOA2V0AAP0RBqkXvjOLA1YpUNU5WMDFLQVNYU1FFN1JZVTVXWEFaWEI4VyQlQCN0PWcu)
 
-This repository contains the case study presented in the *Open Data* station of the workshop. 
+This repository contains the case study presented in the *Open Data* station of the workshop.
+
+---
+## Conda Environment
+
+*For Winidows uses please see the [documentation](https://docs.conda.io/projects/conda/en/latest/user-guide/tasks/manage-environments.html)*.
+
+- [Create conda environment](https://docs.conda.io/projects/conda/en/latest/user-guide/tasks/manage-environments.html):
+
+  `conda env create -f environment.yml`
+
+- Activate conda environment:
+
+  `conda activate probono_td`
+  
+- Run [Jupyter Notebook](https://jupyter-notebook-beginner-guide.readthedocs.io/en/latest/what_is_jupyter.html):
+
+  `jupyter notebook`
+  
+  OR
+
+- Run [Jupyter Lab](https://jupyterlab.readthedocs.io/en/stable/index.html#):
+
+  `jupyter lab`
+  
+  To use [plotly](https://plot.ly/) with Jupyter Lab please follow the instructions [here](https://github.com/plotly/plotly.py#jupyterlab-support-python-35).
