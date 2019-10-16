@@ -1,11 +1,11 @@
 # [Data Night Out](https://www.experienceone.com/datanightout/)
 ## Mit Daten Sinnvolles Machen
 
+![logo](images/logo.jpg)
+
 [TD Reply](https://www.tdreply.de/) & [Experience One](https://www.experienceone.com/en/) Workshop
 
 **When:** 17th Ooctober 2019 at 18:00
-
-![logo](images/logo.jpg)
 
 **Where:** [Schinkelplatz 5, 10117 Berlin](https://www.google.com/maps/place/Schinkelpl.+5,+10117+Berlin/@52.5169378,13.3956617,17z/data=!3m1!4b1!4m5!3m4!1s0x47a851dead58b84f:0x80fe7e9c3deeb360!8m2!3d52.5169378!4d13.3978504).
 
