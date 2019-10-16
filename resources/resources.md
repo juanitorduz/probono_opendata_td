@@ -15,6 +15,16 @@ Here we provide a list of useful resources which we will keep enriching.
 - [StackOverflow](https://stackoverflow.com/)
 - [Udemy](https://www.udemy.com/)
 
+## Data Visualization 
+
+- [D3.js](https://d3js.org/)
+- [Plotly](https://plot.ly/)
+
+## Dashboards
+
+- [Dash](https://plot.ly/dash/)
+- [Shiny](https://rstudio.github.io/shinydashboard/)
+
 ## Case Studies
 
   - [RWeekly](https://rweekly.org/)
