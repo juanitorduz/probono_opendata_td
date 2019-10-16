@@ -14,9 +14,13 @@
 This repository contains the case study presented in the *Open Data* station of the workshop.
 
 ---
-## Conda Environment
+# How to run the code?
+
+You can unse a `conda enviorment` which we already prepared. 
 
 *For Winidows users please see the [documentation](https://docs.conda.io/projects/conda/en/latest/user-guide/tasks/manage-environments.html)*.
+
+## Conda Environment
 
 - [Create conda environment](https://docs.conda.io/projects/conda/en/latest/user-guide/tasks/manage-environments.html):
 
