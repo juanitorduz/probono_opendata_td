@@ -1,0 +1,68 @@
+---
+title: "Asylum Seekers Report"
+output:
+  html_document:
+    df_print: paged
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = FALSE, message = FALSE, warning = FALSE)
+```
+
+```{r}
+library(tidyverse)
+```
+
+```{r}
+MAIN_DIR <- here::here()
+```
+
+```{r}
+raw_df <- read_csv(file = glue::glue("{MAIN_DIR}/data/refugee-data/asylum_seekers_monthly.csv"))
+
+raw_df %>% head() 
+```
+
+This is report done on the 25th of March in Berlin with [TD Reply](https://www.tdreply.de/)
+
+```{r}
+data_df <- raw_df %>% 
+            rename(Destination = `Country / territory of asylum/residence`) %>% 
+            unite(Month, Year, col = Date, sep = "-") %>% 
+            mutate(Date = parse_date(x = Date, format = "%B-%Y"))
+
+data_df %>% head(500) %>% DT::datatable() #%>% head()
+```
+
+
+```{r}
+plt <- data_df %>% 
+        filter(Destination == "Germany") %>% 
+        group_by(Origin) %>% 
+        summarise(Value = sum(Value)) %>% 
+        filter(Value > 8000) %>% 
+        mutate(Origin = reorder(Origin, Value)) %>% 
+        ggplot() +
+        geom_col(mapping = aes(x = Origin, y = Value)) +
+        xlab(NULL) + ylab(NULL) + 
+        coord_flip() +
+        ggtitle(label = "Number of Germany Asylum Seekers")
+
+plotly::ggplotly(plt)
+```
+
+```{r, fig.align="center", fig.width=10}
+origin_names <- c("Syrian Arab Rep.", "Iraq", "Afghanistan")
+
+plt <- data_df %>% 
+        filter(Destination == "Germany") %>% 
+        filter(Origin %in% origin_names) %>% 
+        filter(Date > "2013-01-01") %>% 
+        ggplot(mapping = aes(x = Date, y = Value, color = Origin)) +
+        geom_line() +
+        ggtitle(label = "Number of Germany Asylum Seekers")
+
+plotly::ggplotly(plt)
+```
+
+
